@@ -14,7 +14,7 @@ class NetSuiteClient {
 
     /** Debug logging */
     private function logDebug($message) {
-        $logFile = __DIR__ . '/../@dm1n/logs/netsuite-api.log';
+        $logFile = __DIR__ . '/../logs/netsuite-api.log';
         $logDir = dirname($logFile);
         if (!is_dir($logDir)) {
             mkdir($logDir, 0755, true);
