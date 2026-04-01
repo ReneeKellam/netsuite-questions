@@ -1,0 +1,30 @@
+[2026-04-01 15:23:45] 
+===========Initializing NetSuiteClient 2026-04-01 15:23:45=============
+
+[2026-04-01 15:23:45] All required configuration variables are set.
+[2026-04-01 15:23:45] === Starting NetSuite Connection Test ===
+[2026-04-01 15:23:45] Starting token request...
+[2026-04-01 15:23:45] Starting JWT generation...
+[2026-04-01 15:23:45] JWT timing - Now: 1775078625, Expires: 1775078925
+[2026-04-01 15:23:45] Looking for private key at: /home2/dwugjjmy/public_html/website_31a666fe/config/../@dm1n/certificates/private-2026.pem
+[2026-04-01 15:23:45] Private key file loaded, length: 384
+[2026-04-01 15:23:45] Key type: EC
+[2026-04-01 15:23:45] Key bits: 521
+[2026-04-01 15:23:45] Using algorithm: ES512
+[2026-04-01 15:23:45] Header encoded length: 106
+[2026-04-01 15:23:45] Payload encoded length: 412
+[2026-04-01 15:23:45] Signature created successfully, length: 139
+[2026-04-01 15:23:45] Signature encoded length: 186
+[2026-04-01 15:23:45] Final JWT length: 706
+[2026-04-01 15:23:45] JWT algorithm used: ES512
+[2026-04-01 15:23:45] JWT created successfully
+[2026-04-01 15:23:45] JWT assertion generated successfully
+[2026-04-01 15:23:45] POST data length: 840
+[2026-04-01 15:23:45] Making HTTP POST request...
+[2026-04-01 15:23:46] HTTP Response Code: 400
+[2026-04-01 15:23:46] Content-Type: application/json;charset=utf-8
+[2026-04-01 15:23:46] Response: {"error":"invalid_request"}
+
+[2026-04-01 15:23:46] HTTP error occurred
+[2026-04-01 15:23:46] Parsed error response: {"error":"invalid_request"}
+[2026-04-01 15:23:46] === Connection Test Failed: NetSuite error: invalid_request ===
